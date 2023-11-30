@@ -1,0 +1,305 @@
+@prefix cls: <https://clscor.io/ontologies/CRMcls/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix lrm: <http://www.cidoc-crm.org/cidoc-crm/lrmoo/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<https://clscor.io/entity/162978d5> a cls:X1_Corpus ;
+    lrm:R71_has_part <https://clscor.io/entity/106f6360> .
+
+<https://clscor.io/entity/1a8cc96c> a crm:E55_Type ;
+    rdfs:label "Full name of an author" ;
+    crm:P2i_is_type_of <https://clscor.io/entity/70d73261> .
+
+<https://clscor.io/entity/2f33662a> a crm:E55_Type ;
+    rdfs:label "Play ID" ;
+    crm:P2i_is_type_of <https://clscor.io/entity/20886ff2> .
+
+<https://clscor.io/entity/60492584> a crm:E55_Type ;
+    rdfs:label "Short name of an author" ;
+    crm:P2i_is_type_of <https://clscor.io/entity/7e68a369> .
+
+<https://clscor.io/entity/78e4d455> a lrm:F1_Work ;
+    lrm:R74_uses_expression_of <https://clscor.io/entity/c5344c64> .
+
+<https://clscor.io/entity/8ca7c884> a crm:E55_Type ;
+    rdfs:label "Subtitle" ;
+    crm:P2i_is_type_of <https://clscor.io/entity/0182b5f0> .
+
+<https://clscor.io/entity/8de70554> a crm:E55_Type ;
+    rdfs:label "Main Title" ;
+    crm:P2i_is_type_of <https://clscor.io/entity/19876aca> .
+
+<https://clscor.io/entity/ce8f19ed> a crm:E55_Type ;
+    rdfs:label "Playname" ;
+    crm:P2i_is_type_of <https://clscor.io/entity/51e21ef5> .
+
+<https://clscor.io/entity/f96762cb> a crm:E55_Type ;
+    rdfs:label "Name of an author in the format 'surname, forname'" ;
+    crm:P2i_is_type_of <https://clscor.io/entity/2180dcd9> .
+
+<https://clscor.io/entity/0182b5f0> a crm:E35_Title ;
+    rdfs:label "Emilia Galotti [Subtitle of Expression]" ;
+    crm:P102i_is_title_of <https://clscor.io/entity/c9058998> ;
+    crm:P190_has_symbolic_content "Ein Trauerspiel in fünf Aufzügen" ;
+    crm:P2_has_type <https://clscor.io/entity/8ca7c884> .
+
+<https://clscor.io/entity/0d5a634c> a crm:E42_Identifier ;
+    rdfs:label "Textgrid ID of Digital Source of Emilia Galotti" ;
+    crm:P190_has_symbolic_content "textgrid:rksp.0" ;
+    crm:P1i_identifies <https://clscor.io/entity/abd85872> ;
+    crm:P2_has_type <https://clscor.io/entity/type/identifier/textgrid> .
+
+<https://clscor.io/entity/19876aca> a crm:E35_Title ;
+    rdfs:label "Emilia Galotti [Title of Expression]" ;
+    crm:P102i_is_title_of <https://clscor.io/entity/c9058998> ;
+    crm:P190_has_symbolic_content "Emilia Galotti" ;
+    crm:P2_has_type <https://clscor.io/entity/8de70554> .
+
+<https://clscor.io/entity/20886ff2> a crm:E42_Identifier ;
+    rdfs:label "Emilia Galotti [DraCor ID]" ;
+    crm:P190_has_symbolic_content "ger000088" ;
+    crm:P1i_identifies <https://clscor.io/entity/106f6360> ;
+    crm:P2_has_type <https://clscor.io/entity/2f33662a> .
+
+<https://clscor.io/entity/2180dcd9> a crm:E41_Appellation ;
+    rdfs:label "Name of Lessing" ;
+    crm:P190_has_symbolic_content "Lessing, Gotthold Ephraim" ;
+    crm:P1i_identifies <https://clscor.io/entity/ca857d3a> ;
+    crm:P2_has_type <https://clscor.io/entity/f96762cb> .
+
+<https://clscor.io/entity/419b3d14> a crm:E41_Appellation ;
+    rdfs:label "Bibliographic reference of printed source of play Emilia Galotti" ;
+    crm:P190_has_symbolic_content "Gotthold Ephraim Lessing: Emilia Galotti. Ein Trauerspiel in fünf Aufzügen. In: Werke. Zweiter Band. Herausgegeben von Herbert G. Göpfert. München: Hanser 1971, S. 127–204." ;
+    crm:P1i_identifies <https://clscor.io/entity/58e8d330> ;
+    crm:P2_has_type <https://clscor.io/entity/type/identifier/bibl_ref> .
+
+<https://clscor.io/entity/46181686> a lrm:F27_Work_Creation ;
+    rdfs:label "Emilia Galotti [Work Creation]" ;
+    crm:P14_carried_out_by <https://clscor.io/entity/ca857d3a> ;
+    lrm:R16_created <https://clscor.io/entity/c5344c64> .
+
+<https://clscor.io/entity/51e21ef5> a crm:E42_Identifier ;
+    rdfs:label "Emilia Galotti [DraCor playname]" ;
+    crm:P190_has_symbolic_content "lessing-emilia-galotti" ;
+    crm:P1i_identifies <https://clscor.io/entity/106f6360> ;
+    crm:P2_has_type <https://clscor.io/entity/ce8f19ed> .
+
+<https://clscor.io/entity/62e9f26e> a crm:E42_Identifier ;
+    rdfs:label "Emilia Galotti [Wikidata ID]" ;
+    crm:P190_has_symbolic_content "Q782653" ;
+    crm:P1i_identifies <https://clscor.io/entity/c5344c64> ;
+    crm:P2_has_type <https://clscor.io/entity/type/identifier/wikidata> .
+
+<https://clscor.io/entity/633ff31c> a cls:X8_Schema ;
+    rdfs:label "DraCor RelaxNG Schema" ;
+    crm:P1_is_identified_by <https://clscor.io/entity/da3f352c> ;
+    cls:Y3i_is_schema_of <https://clscor.io/entity/106f6360> .
+
+<https://clscor.io/entity/70d73261> a crm:E41_Appellation ;
+    rdfs:label "Full name of Lessing" ;
+    crm:P190_has_symbolic_content "Gotthold Ephraim Lessing" ;
+    crm:P1i_identifies <https://clscor.io/entity/ca857d3a> ;
+    crm:P2_has_type <https://clscor.io/entity/1a8cc96c> .
+
+<https://clscor.io/entity/746c75a9> a lrm:F28_Expression_Creation ;
+    rdfs:label "Emilia Galotti [Expression Creation]" ;
+    crm:P14_carried_out_by <https://clscor.io/entity/ca857d3a> ;
+    lrm:R17_created <https://clscor.io/entity/c9058998> .
+
+<https://clscor.io/entity/7e68a369> a crm:E41_Appellation ;
+    rdfs:label "Short name of Lessing" ;
+    crm:P190_has_symbolic_content "Lessing" ;
+    crm:P1i_identifies <https://clscor.io/entity/ca857d3a> ;
+    crm:P2_has_type <https://clscor.io/entity/60492584> .
+
+<https://clscor.io/entity/c70bc195> a crm:E42_Identifier ;
+    rdfs:label "ID of type pnd of Lessing" ;
+    crm:P190_has_symbolic_content "118572121" ;
+    crm:P1i_identifies <https://clscor.io/entity/ca857d3a> ;
+    crm:P2_has_type <https://clscor.io/entity/type/identifier/gnd> .
+
+<https://clscor.io/entity/c77b25af> a crm:E42_Identifier ;
+    rdfs:label "ID of type wikidata of Lessing" ;
+    crm:P190_has_symbolic_content "Q34628" ;
+    crm:P1i_identifies <https://clscor.io/entity/ca857d3a> ;
+    crm:P2_has_type <https://clscor.io/entity/type/identifier/wikidata> .
+
+<https://clscor.io/entity/da3f352c> a crm:E42_Identifier ;
+    rdfs:label "Link to DraCor TEI-XML Schema" ;
+    crm:P190_has_symbolic_content "https://raw.githubusercontent.com/dracor-org/dracor-schema/main/odd/out/dracor.rng" ;
+    crm:P1i_identifies <https://clscor.io/entity/633ff31c> ;
+    crm:P2_has_type <https://vocab.clscor.io/identifier/url> .
+
+<https://clscor.io/entity/e4e77fce> a crm:E42_Identifier ;
+    rdfs:label "GitHub Raw Link of Emilia Galotti" ;
+    crm:P190_has_symbolic_content "https://raw.githubusercontent.com/dracor-org/gerdracor/1b72b15242eccae554fadca2a3458a3a9ec21176/tei/lessing-emilia-galotti.xml" ;
+    crm:P1i_identifies <https://clscor.io/entity/106f6360> ;
+    crm:P2_has_type <https://clscor.io/entity/type/link/download> .
+
+<https://clscor.io/entity/e694a8f9> a crm:E42_Identifier ;
+    rdfs:label "Emilia Galotti [Digital Source URL]" ;
+    crm:P190_has_symbolic_content "http://www.textgridrep.org/textgrid:rksp.0" ;
+    crm:P1i_identifies <https://clscor.io/entity/abd85872> ;
+    crm:P2_has_type <https://vocab.clscor.io/identifier/url> .
+
+<https://clscor.io/entity/type/format> a crm:E32_Authority_Document,
+        skos:ConceptScheme ;
+    rdfs:label "Formats" ;
+    crm:P71_lists <https://clscor.io/entity/type/format/tei> ;
+    skos:topConcept <https://clscor.io/entity/type/format/tei> .
+
+<https://clscor.io/entity/type/link> a crm:E32_Authority_Document,
+        skos:ConceptScheme ;
+    rdfs:label "Link Types" ;
+    crm:P71_lists <https://clscor.io/entity/type/link/download> ;
+    skos:topConcept <https://clscor.io/entity/type/link/download> .
+
+<https://clscor.io/entity/58e8d330> a lrm:F3_Manifestation ;
+    rdfs:label "Emilia Galotti [Original (Printed) Source]" ;
+    crm:P1_is_identified_by <https://clscor.io/entity/419b3d14> ;
+    crm:P2_has_type <https://clscor.io/entity/type/publication/print> ;
+    lrm:R4_embodies <https://clscor.io/entity/c9058998> .
+
+<https://clscor.io/entity/type/format/tei> a crm:E55_Type,
+        skos:Concept,
+        cls:X7_Format ;
+    rdfs:label "TEI XML" ;
+    crm:P71i_is_listed_in <https://clscor.io/entity/type/format> ;
+    skos:inScheme <https://clscor.io/entity/type/format> ;
+    cls:Y2i_is_format_of <https://clscor.io/entity/106f6360> .
+
+<https://clscor.io/entity/type/identifier/bibl_ref> a crm:E55_Type,
+        skos:Concept ;
+    rdfs:label "Bibliographic Reference" ;
+    crm:P2i_is_type_of <https://clscor.io/entity/419b3d14> ;
+    crm:P71i_is_listed_in <https://clscor.io/entity/type/identifier> ;
+    skos:inScheme <https://clscor.io/entity/type/identifier> .
+
+<https://clscor.io/entity/type/identifier/gnd> a crm:E55_Type,
+        skos:Concept ;
+    rdfs:label "GND ID" ;
+    crm:P2i_is_type_of <https://clscor.io/entity/c70bc195> ;
+    crm:P71i_is_listed_in <https://clscor.io/entity/type/identifier> ;
+    skos:altLabel "GND-Nummer"@de ;
+    skos:exactMatch <http://www.wikidata.org/entity/Q54506313> ;
+    skos:example "118609807" ;
+    skos:inScheme <https://clscor.io/entity/type/identifier> ;
+    skos:prefLabel "GND ID"@en .
+
+<https://clscor.io/entity/type/identifier/textgrid> a crm:E55_Type,
+        skos:Concept ;
+    rdfs:label "Textgrid ID" ;
+    crm:P2i_is_type_of <https://clscor.io/entity/0d5a634c> ;
+    crm:P71i_is_listed_in <https://clscor.io/entity/type/identifier> ;
+    skos:inScheme <https://clscor.io/entity/type/identifier> .
+
+<https://clscor.io/entity/type/link/download> a crm:E55_Type,
+        skos:Concept ;
+    rdfs:label "Download Link" ;
+    crm:P2i_is_type_of <https://clscor.io/entity/e4e77fce> ;
+    crm:P71i_is_listed_in <https://clscor.io/entity/type/link> ;
+    skos:inScheme <https://clscor.io/entity/type/link> .
+
+<https://clscor.io/entity/type/publication/digital> a crm:E55_Type,
+        skos:Concept ;
+    rdfs:label "Digital Publication" ;
+    crm:P2i_is_type_of <https://clscor.io/entity/abd85872> ;
+    crm:P71i_is_listed_in <https://clscor.io/entity/type/publication> ;
+    skos:inScheme <https://clscor.io/entity/type/publication> .
+
+<https://clscor.io/entity/type/publication/print> a crm:E55_Type,
+        skos:Concept ;
+    rdfs:label "Print Publication" ;
+    crm:P2i_is_type_of <https://clscor.io/entity/58e8d330> ;
+    crm:P71i_is_listed_in <https://clscor.io/entity/type/publication> ;
+    skos:inScheme <https://clscor.io/entity/type/publication> .
+
+<https://clscor.io/entity/abd85872> a lrm:F3_Manifestation ;
+    rdfs:label "Emilia Galotti [Digital Source]" ;
+    crm:P1_is_identified_by <https://clscor.io/entity/0d5a634c>,
+        <https://clscor.io/entity/e694a8f9> ;
+    crm:P2_has_type <https://clscor.io/entity/type/publication/digital> ;
+    lrm:R4_embodies <https://clscor.io/entity/c9058998> .
+
+<https://clscor.io/entity/c5344c64> a lrm:F1_Work ;
+    rdfs:label "Emilia Galotti [Work]" ;
+    crm:P1_is_identified_by <https://clscor.io/entity/62e9f26e> ;
+    lrm:R16i_was_created_by <https://clscor.io/entity/46181686> ;
+    lrm:R3_is_realised_in <https://clscor.io/entity/c9058998> ;
+    lrm:R74i_has_expression_used_in <https://clscor.io/entity/78e4d455> .
+
+<https://clscor.io/entity/type/identifier/wikidata> a crm:E55_Type,
+        skos:Concept ;
+    rdfs:label "Wikidata ID" ;
+    crm:P2i_is_type_of <https://clscor.io/entity/62e9f26e>,
+        <https://clscor.io/entity/c77b25af> ;
+    crm:P71i_is_listed_in <https://clscor.io/entity/type/identifier> ;
+    skos:altLabel "QID"@en,
+        "Wikidata Q identifier"@en,
+        "Wikidata Q-Number"@en ;
+    skos:exactMatch <http://www.wikidata.org/entity/Q43649390> ;
+    skos:example "Q34628" ;
+    skos:inScheme <https://clscor.io/entity/type/identifier> ;
+    skos:prefLabel "Wikidata ID"@en .
+
+<https://clscor.io/entity/type/publication> a crm:E32_Authority_Document,
+        skos:ConceptScheme ;
+    rdfs:label "Publication Types" ;
+    crm:P71_lists <https://clscor.io/entity/type/publication/digital>,
+        <https://clscor.io/entity/type/publication/print> ;
+    skos:topConcept <https://clscor.io/entity/type/publication/digital>,
+        <https://clscor.io/entity/type/publication/print> .
+
+<https://vocab.clscor.io/identifier/url> a crm:E55_Type,
+        skos:Concept ;
+    rdfs:label "URL (as identfier)" ;
+    crm:P2i_is_type_of <https://clscor.io/entity/da3f352c>,
+        <https://clscor.io/entity/e694a8f9> ;
+    crm:P71i_is_listed_in <https://clscor.io/entity/type/identifier> ;
+    skos:inScheme <https://clscor.io/entity/type/identifier> .
+
+<https://clscor.io/entity/106f6360> a cls:X2_Corpus_Document ;
+    rdfs:label "Emilia Galotti [TEI Document]" ;
+    crm:P1_is_identified_by <https://clscor.io/entity/20886ff2>,
+        <https://clscor.io/entity/51e21ef5>,
+        <https://clscor.io/entity/e4e77fce> ;
+    lrm:R4_embodies <https://clscor.io/entity/c9058998> ;
+    lrm:R71i_is_part_of <https://clscor.io/entity/162978d5> ;
+    cls:Y2_has_format <https://clscor.io/entity/type/format/tei> ;
+    cls:Y3_adheres_to_schema <https://clscor.io/entity/633ff31c> .
+
+<https://clscor.io/entity/c9058998> a lrm:F2_Expression ;
+    rdfs:label "Emilia Galotti [Expression]" ;
+    crm:P102_has_title <https://clscor.io/entity/0182b5f0>,
+        <https://clscor.io/entity/19876aca> ;
+    lrm:R17i_was_created_by <https://clscor.io/entity/746c75a9> ;
+    lrm:R3i_realises <https://clscor.io/entity/c5344c64> ;
+    lrm:R4i_is_embodied_in <https://clscor.io/entity/106f6360>,
+        <https://clscor.io/entity/58e8d330>,
+        <https://clscor.io/entity/abd85872> .
+
+<https://clscor.io/entity/ca857d3a> a crm:E39_Actor ;
+    rdfs:label "Lessing [Actor]" ;
+    crm:P14i_performed <https://clscor.io/entity/46181686>,
+        <https://clscor.io/entity/746c75a9> ;
+    crm:P1_is_identified_by <https://clscor.io/entity/2180dcd9>,
+        <https://clscor.io/entity/70d73261>,
+        <https://clscor.io/entity/7e68a369>,
+        <https://clscor.io/entity/c70bc195>,
+        <https://clscor.io/entity/c77b25af> .
+
+<https://clscor.io/entity/type/identifier> a crm:E32_Authority_Document,
+        skos:ConceptScheme ;
+    rdfs:label "ID Types" ;
+    crm:P71_lists <https://clscor.io/entity/type/identifier/bibl_ref>,
+        <https://clscor.io/entity/type/identifier/gnd>,
+        <https://clscor.io/entity/type/identifier/textgrid>,
+        <https://clscor.io/entity/type/identifier/wikidata>,
+        <https://vocab.clscor.io/identifier/url> ;
+    skos:topConcept <https://clscor.io/entity/type/identifier/bibl_ref>,
+        <https://clscor.io/entity/type/identifier/gnd>,
+        <https://clscor.io/entity/type/identifier/textgrid>,
+        <https://clscor.io/entity/type/identifier/wikidata>,
+        <https://vocab.clscor.io/identifier/url> .
+
